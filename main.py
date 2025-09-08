@@ -5,7 +5,7 @@ import repo
 
 limiteMayor = 10000
 
-val = int(input("Ingrese el valor a encontrar (1-"+str(limiteMayor)+"): "))
+val = int(input("Ingrese el valor a encontrar: "))
 limiteMayor = limiteMayor if val <= limiteMayor else val+1000
 # val = 192 #valor a encontrar
 
