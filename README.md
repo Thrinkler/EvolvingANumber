@@ -4,24 +4,21 @@ using just a simple concept: Finding a number.
 
 ---
 # Motivation
-I had the idea to make this project ever since I was 15 years old. I grasped the idea by just
-watching videos about AI (before chatgpt, when AI was just some program trying to find a way to
-solve a maze or play a videogame alone), but by the time it just seemed a little bit too stupid
-to do, the concept is just so simple that why bother doing it. So that's why, when I was too 
-bored playing ping-pong, it just came to me:
+I've had the idea for this project since I was 15. I was fascinated by early AI videos—programs
+learning to solve mazes or play games, but the idea of building an AI just to find a number seemed
+almost too simple, maybe even a little silly. So, I put it aside.
 
-Why wouldn't I make it?
+Then, years later, while bored during a game of ping-pong, the idea came back to me with a new twist:
 
-So there I imagined working on the most complex way to find the number you are thinking would
-be. Not only asking chatgpt, but making my own AI to search for that number, and with the 
-basic knowledge I still have with those, it was just too perfect: A guy trying to grasp 
-every bit of the knowledge he watched on YouTube and putting it inside a project to find the
-desired number the user wants.
+What if the goal wasn't just to find the number, but to build the most elaborate, over-engineered, 
+and educational way to do it?
 
-So, this is it. The biggest and most complex project to find the number the user is thinking
-of.
+This project is the result of that thought. It's my attempt to take every bit of knowledge I've absorbed
+from watching those old AI videos and channel it into a single mission: to build my own learning algorithm
+from the ground up, all for the beautifully simple task of finding a number.
+
+So this is it. The most complex project imaginable to find a number you're thinking of.
 (pls don't show it to my CS teachers).
-
 # Core Features.
 
 This is not a simple script but a complete, functional genetic algorithm engine that implements:
