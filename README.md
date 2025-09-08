@@ -4,9 +4,9 @@ using just a simple concept: Finding a number.
 
 ---
 # Motivation
-I've had the idea for this project since I was 15. I was fascinated by early AI videos—programs
-learning to solve mazes or play games, but the idea of building an AI just to find a number seemed
-almost too simple, maybe even a little silly. So, I put it aside.
+I've had the idea for this project since I was 15. I was fascinated by early AI videos, the ones
+that were just programs learning to solve mazes or play games, but the idea of building an AI just
+to find a number seemed almost too simple, maybe even a little silly. So, I put it aside.
 
 Then, years later, while bored during a game of ping-pong, the idea came back to me with a new twist:
 
