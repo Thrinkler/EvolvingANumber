@@ -5,7 +5,9 @@ import repo
 
 limiteMayor = 10000
 
-val = 192 #valor a encontrar
+val = int(input("Ingrese el valor a encontrar (1-"+str(limiteMayor)+"): "))
+limiteMayor = limiteMayor if val <= limiteMayor else val+1000
+# val = 192 #valor a encontrar
 
 padres = [padre.Padre(limiteMayor) for _ in range(10000)] #poblacion inicial aleatoria
 
