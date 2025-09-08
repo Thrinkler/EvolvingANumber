@@ -61,3 +61,26 @@ def reproduccion_sexual(padres): #crear hijos segun probabilidad de pasar de los
             else:
                 hijos.extend([HijoSexual(padre, madre)]*int(randint(0,1)))
     return hijos
+
+
+def reproduccion_sexual_elitista(padres): #crear hijos segun probabilidad de pasar de los padres
+    hijos = []
+    participantes = padres.copy()
+    while len(participantes) >= 10 + len(participantes)//2:
+        MUESTRA = len(participantes)//2
+        ganadores = ganadores_a_reproduccion(participantes[0:MUESTRA])
+        padre = ganadores[0]
+        madre = ganadores[1]
+        participantes.remove(padre)
+        participantes.remove(madre)
+
+        if(randint(400,1000)/1000 < (padre.probPasar + madre.probPasar)/2):
+            if (padre.probPasar + madre.probPasar)/2 > 0.8:
+                hijos.extend([HijoSexual(padre, madre)]*int(randint(1,3)))
+            elif (padre.probPasar + madre.probPasar)/2 > 0.5:
+                hijos.extend([HijoSexual(padre, madre)]*int(randint(0,3)))
+            elif (padre.probPasar + madre.probPasar)/2 > 0.2:
+                hijos.extend([HijoSexual(padre, madre)]*int(randint(0,2)))
+            else:
+                hijos.extend([HijoSexual(padre, madre)]*int(randint(0,1)))
+    return hijos
