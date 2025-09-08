@@ -15,7 +15,7 @@ and educational way to do it?
 
 This project is the result of that thought. It's my attempt to take every bit of knowledge I've absorbed
 from watching those old AI videos and channel it into a single mission: to build my own learning algorithm
-from the ground up, all for the beautifully simple task of finding a number.
+from the ground up, all for the simple task of finding a number.
 
 So this is it. The most complex project imaginable to find a number you're thinking of.
 (pls don't show it to my CS teachers).
